@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <title>Pedro's Football PÁG. PRICIPAL</title>
+    <link rel="stylesheet" href="CSS/Login CSS.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="enois">
+            <strong>Escolha o seu time</strong>
+        </h1>
+        <div class="img">
+            <img width="45px" src="Imagens/SINO.jpg">
+            <img width="45px" src="Imagens/ENGRENAGEM.jpg">
+            <a href="HTML/index.html"><img width="45px" src="Imagens/CASA.jpg"></a>
+            <a href="HTML/Login Site.html"><img width="45px" src="Imagens/PESSOAL.jpg"></a>
+        </div>
+        <div class="pesquise">
+            <form action="" method="Post">
+                <label for="Pesquise">Pesquise aqui:</label>
+                <input type="text" name="pesquise" id="pesquise">
+                <input type="submit">
+            </form>
+        </div>
+    </header>
+
+
+    <nav>
+        <div>
+            <img src="Imagens/Grêmio.png"><br><a href="HTML/Pagina do Grêmio.html">Grêmio</a>
+        </div>
+        <div>
+            <img width="75px" src="Imagens/Internacional.png"><br><a
+                href="HTML/Pagina do Inter.html">Internacional</a>
+        </div>
+        <div>
+            <img width="75px" src="Imagens/Juventude.png"><br><a
+                href="HTML/Pagina do  Juventude.html">Juventude</a>
+        </div>
+        <div>
+            <img width="75px" src="Imagens/Yipiranga.png"><br><a href="">Yipiranga</a>
+        </div>
+        <div>
+            <img width="75px" src="Imagens/Pelotas.png"><br><a href="">Brasil de Pelotas</a>
+        </div>
+        <div>
+            <img width="75px" src="Imagens/Caxias.png"><br><a href="">Caxias do Sul</a>
+        </div>
+        <div>
+            <img width="75px" src="Imagens/Guaramy.png"><br><a href="">Guarany</a>
+        </div>
+        <div>
+            <img width="75px" src="Imagens/Aimore.png"><br><a href="">Aimoré</a>
+        </div>
+        <div>
+            <img width="75px" src="Imagens/Lajeado.png"><br><a href=""> Lajeadense</a>
+        </div>
+    </nav>
+
+
+    <form action="" method="post">
+        <link rel="stylesheet" href="CSS/Login CSS.css">
+
+        <fieldset>
+            <header>
+                <h1><strong>Cadastro:</strong></h1>
+            </header>
+            <p>
+                <label for="Nome">Nome:</label>
+                <input type="text" name="Nome" id="Nome" required>
+
+            </p>
+            <p>
+                <label for="CPF">CPF:</label>
+                <input type="text" name="CPF" id="CPF" required>
+
+            </p>
+            <p>
+                <label for="E-mail">E-Mail:</label>
+                <input type="email" name="email" id="email" required>
+
+            </p>
+            <p>
+                <label for="Telefone">Telefone:</label>
+                <input type="text" name="Telefone" id="Telefone" required>
+
+            </p>
+            <p>
+                <label for="data de nascimento">Data de nascimento:</label>
+                <input type="date" name="Data de Nascimento" id="Data de Nascimento" required>
+
+            </p>
+            <p>
+                <label for="CEP">CEP:</label>
+                <input type="text" name="CEP" id="CEP" required>
+            </p>
+        </fieldset>
+    </form>
+    <form class="f2">
+        <p>
+        <h2>
+            Selecione o seu time (Campo opcional)
+        </h2>
+        </p>
+        <p>
+            <select name="Times">
+                <option value="gre">Grêmio</option>
+                <option value="int">Internacional</option>
+                <option value="juv">Juventude</option>
+                <option value="Cax">Caxias do Sul</option>
+                <option value="Yip">Yipiranga</option>
+                <option value="brp">Brasil de Pelotas</option>
+                <option value="aim">Aimoré</option>
+                <option value="gua">Guarany</option>
+                <option value="laj">Clube esportivo Lajeadense</option>
+            </select>
+        </p>
+        <p>
+
+            <label for="">Idade</label>
+        </p>
+        <p>
+            <input type="radio" name="idade" id="idade5" value="5" required>
+            <label for="idade5">Entre 5 e 10 anos de idade.</label>
+        </p>
+        <p>
+            <input type="radio" name="idade" id="idade10" value="10" required>
+            <label for="idade10">Entre 10 a 20 anos.</label>
+        </p>
+        <p>
+            <input type="radio" name="idade" id="idade20" value="20" required>
+            <label for="idade20">Mais que 20 anos.</label>
+        </p>
+        <p>
+            <input id="Contrato" name="Contrato" type="checkbox" value="sim" required>
+            <label for="contrato">Aceito os Termos e Condições de Serviço.</label>
+        </p>
+        <p>
+            <input type="submit" required>
+        </p>
+    </form>
+    <footer>
+        <p>
+            By Pedro
+        </p>
+    </footer>
+</body>
+
+</html>
